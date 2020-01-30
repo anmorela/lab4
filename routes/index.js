@@ -37,8 +37,7 @@ exports.view = function(req, res){
   	{	"name": "Design Tools",
   	  	"image": "lorempixel.city.2.jpeg",
   		"id": "project8"
-  	},
-  	]
-
+  	}
+  ]
   });
 };

@@ -26,7 +26,11 @@
 			<h1>Michael Bernstein</h1>
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
 		</div>
-
+		<ol>
+			{{#each projects}}
+				<li><a href="#project{{id}}">{{name}}</a></li>
+			{{/each}}
+		</ol>
 
 		<h4>Projects</h4>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
@@ -40,12 +44,6 @@
 			</a>
 		</div>
 		{{/each}}
-
-		<ol>
-			{{#each projects}}
-				<li><a href="#project{{id}}">{{name}}</a></li>
-			{{/each}}
-		</ol>
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
